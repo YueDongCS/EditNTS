@@ -19,6 +19,6 @@ Our code is written with python 2.7.
 
 Our code requires PyTorch version >= 0.4.1. Please follow the instructions here: https://github.com/pytorch/pytorch#installation.
 
-After PyTorch is installed, you can run our model through main.py. 
+You will need to first process the data using data_preprocess.py and then run our model through main.py. 
 
 
