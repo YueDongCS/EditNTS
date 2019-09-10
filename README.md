@@ -15,7 +15,7 @@ Please cite this paper if you use our code or system output.
 https://drive.google.com/file/d/1zT6pNO_zixZLgtwqxaiErzdeiAKrALzt/view?usp=sharing
 
 ### Installation
-Our code is written with python 2.7. Please see the Pull request from David Beauchemin if you intend to convert the code to python 3.7.
+Our code is written with python 2.7. 
 
 Our code requires PyTorch version >= 0.4.0. Please follow the instructions here: https://github.com/pytorch/pytorch#installation.
 
