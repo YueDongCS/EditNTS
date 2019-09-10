@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1zT6pNO_zixZLgtwqxaiErzdeiAKrALzt/view?usp=shari
 ### Installation
 Our code is written with python 2.7. 
 
-Our code requires PyTorch version >= 0.4.0. Please follow the instructions here: https://github.com/pytorch/pytorch#installation.
+Our code requires PyTorch version >= 0.4.1. Please follow the instructions here: https://github.com/pytorch/pytorch#installation.
 
 After PyTorch is installed, you can run our model through main.py. 
 
