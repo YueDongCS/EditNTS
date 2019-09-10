@@ -1,7 +1,7 @@
 # EditNTS
 This repo contains the code for our paper "[EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing](https://arxiv.org/abs/1906.08104)" accepted at ACL 2019. Please contact me at yue.dong2@mail.mcgill.ca for any question.
 
-Please cite this paper if you use our code or data.
+Please cite this paper if you use our code or system output.
 ```
 @inproceedings{dong2019editnts,
   title={EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing},
