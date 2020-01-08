@@ -55,19 +55,6 @@ def replace_parenthesis(folder):
                 for line in doc:
                     writer.write(line)
 
-def ratio_stats(file):
-    all_lines=[]
-    STAR_list=[]
-    with open(file,'r') as f:
-        lines = f.readlines()
-        for line in lines:
-            if not line[0].isdigit() and  not len(line) ==0 and  not line.startswith('F1') and not line.startswith('Eva')\
-                    and  not line.startswith('STAR') and  not line.startswith('Total') and not line.startswith('Pro'):
-                # print(line)
-                all_lines.append(line)
-    print(len(all_lines))
-
-
 def copy_ratio(sys_list, src_list):
     sys_list=sys_list.split(' ')
     src_list=src_list.split(' ')
