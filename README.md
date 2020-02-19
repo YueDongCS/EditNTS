@@ -21,10 +21,10 @@ Our code requires PyTorch version >= 0.4.1. Please follow the instructions here:
 
 You will need to first process the data using data_preprocess.py and then run our model through main.py. 
 
-# A few notes on the Data Processing:
+### A few notes on the Data Processing:
 
 Please first call the data_processing.py and make sure the processed dataframe has the following columns:
-# with columns ['comp_tokens', 'simp_tokens','comp_ids','simp_ids', 'comp_pos_tags', 'comp_pos_ids', edit_labels','new_edit_ids']
+['comp_tokens', 'simp_tokens','comp_ids','simp_ids', 'comp_pos_tags', 'comp_pos_ids', edit_labels','new_edit_ids']
 
 This can be done by the following steps:
 1.process_raw_data(comp_txt, simp_txt):
