@@ -26,11 +26,11 @@ You will need to first process the data using data_preprocess.py and then run ou
 Please first call the data_processing.py and make sure the processed dataframe has the following columns:
 ['comp_tokens', 'simp_tokens','comp_ids','simp_ids', 'comp_pos_tags', 'comp_pos_ids', edit_labels','new_edit_ids']
 
-This can be done by the following steps:
-1.process_raw_data(comp_txt, simp_txt):
-2.editnet_data_to_editnetID(df,output_path)
+This can be done by the following steps:\\
+1.process_raw_data(comp_txt, simp_txt)\\
+2.editnet_data_to_editnetID(df,output_path)\\
 
-after getting the processed data (in a df), you can run the training through main.py. In the paper, we filtered out the rows where the source sentence and the target sentence are identical to encourge editing, you can do this by adding a line at line 41 in process_raw_data(comp_txt, simp_txt)  
+after getting the processed data (in a dataframe), you can run the training through main.py. In the paper, we filtered out the rows where the source sentence and the target sentence are identical to encourge editing, you can do this by adding a line at line 41 in data_processing.py: 
 
 comp_txt,simp_txt=unzip([(i[0],i[1]) for i in zip(comp_txt,simp_txt)] if i[0] != i[1]]).
 
