@@ -110,6 +110,6 @@ def editnet_data_to_editnetID(df,output_path):
          ]
         out_list.append(ex)
     outdf = pd.DataFrame(out_list, columns=['comp_tokens','comp_ids', 'simp_tokens','simp_ids',
-                                            'edit_labels','edit_ids','comp_pos_tags','comp_pos_ids'])
+                                            'edit_labels','new_edit_ids','comp_pos_tags','comp_pos_ids'])
     outdf.to_pickle(output_path)
     print('saved to %s'%output_path)
